@@ -1,0 +1,26 @@
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+main {
+  display: flex;
+  gap: 40px;
+}
+
+.boards,
+.tasks {
+  flex: 1;
+}
+
+@media (max-width: 768px) {
+  main {
+    flex-direction: column;
+  }
+}
